@@ -25,4 +25,9 @@ echo 'source /opt/ros/indigo/setup.bash' >> ~/.bashrc
 
 ### instruction for user ###
 
-echo 'DO "source ~/.bashrc" or LOGOUT'
+echo '***INSTRUCTION*****************'
+echo '* do the following command    *'
+echo '* $ source ~/.bashrc          *'
+echo '* after that, try             *'
+echo '* $ LANG=C roscore            *'
+echo '*******************************'
