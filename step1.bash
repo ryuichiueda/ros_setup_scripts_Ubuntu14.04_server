@@ -5,7 +5,7 @@ sudo mv /tmp/$$-deb /etc/apt/sources.list.d/ros-latest.list
 
 sudo apt-get install -y curl
 curl -k https://raw.githubusercontent.com/ros/rosdistro/master/ros.key | sudo apt-key add -
-sudo apt-get update
+sudo apt-get update || echo ""
 
 sudo apt-get install -y ros-indigo-ros-base
 
