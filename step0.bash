@@ -10,7 +10,7 @@ sudo apt-get install openssh-server
 
 ### cloning this repository ###
 
-clone https://github.com/ryuichiueda/ros_setup_scripts_Ubuntu14.04.git
+git clone https://github.com/ryuichiueda/ros_setup_scripts_Ubuntu14.04_server.git
 
 # If your git gives a SSL error, please try this.  ###
 #GIT_SSL_NO_VERIFY=1 git clone https://github.com/ryuichiueda/ros_setup_scripts_Ubuntu14.04.git
