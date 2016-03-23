@@ -1,20 +1,17 @@
 # ros_setup_scripts_Ubuntu14.04
 
-ROSをUbuntu 14.04に一発でインストール・セットアップするシェルスクリプトです。
+ROS setup scripts for Ubuntu 14.04
 
 # scripts
 
 ## step0.bash
 
-このリポジトリを使う前の処理を書いたシェルスクリプトです。コピペで使用のこと。
+A script before using this repository. The script can be used by copy and paste.
 
 ## step1.bash
 
-これを実行すると、一度ログアウト（あるいはsource ~/.bashrc）したのちにroscore
-が動くようになります。
+It installs ROS. Roscore will run if all procedures in this script are completed.
 
-# 環境
-
-以下で検証しましたが、Ubuntu14.04なら大抵大丈夫かと。
+# tested on ...
 
 * Raspberry Pi 2
