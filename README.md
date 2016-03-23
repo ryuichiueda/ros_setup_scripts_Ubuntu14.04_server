@@ -14,4 +14,5 @@ It installs ROS. Roscore will run if all procedures in this script are completed
 
 # tested on ...
 
-* Raspberry Pi 2
+* Ubuntu 14.04 Server on Raspberry Pi 2
+* Ubuntu 14.04 Server on Virtual Box
