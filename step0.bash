@@ -5,8 +5,8 @@
 ### setup git and openssh ###
 
 sudo apt-get update
-sudo apt-get install git
-sudo apt-get install openssh-server
+sudo apt-get install -y git
+sudo apt-get install -y openssh-server
 
 ### cloning this repository ###
 
