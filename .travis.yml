@@ -2,6 +2,8 @@ script:
   - sh -e ./step0.bash
   - sh -e ./step1.bash
 
+sudo: required
+
 branches:
   only: 
     - master
