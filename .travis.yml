@@ -1,8 +1,9 @@
-before_install:
-  - sudo add-apt-repository -y "deb http://archive.ubuntu.com/ubuntu/ trusty main universe"
-  - sudo apt-get update -qq
+#before_install:
+#  - sudo add-apt-repository -y "deb http://archive.ubuntu.com/ubuntu/ trusty main universe"
+#  - sudo apt-get update -qq
 
 sudo: required
+dist: trusty
 
 branches:
   only: 
@@ -10,8 +11,8 @@ branches:
     - dev
 
 script:
-  - export DEBIAN_FRONTEND=noninteractive
-  - apt-get -o Dpkg::Options::="--force-confnew" install -y 
+#  - export DEBIAN_FRONTEND=noninteractive
+#  - apt-get -o Dpkg::Options::="--force-confnew" install -y 
   - sh -e ./step0.bash
   - sh -e ./step1.bash
 
