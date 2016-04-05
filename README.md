@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/ryuichiueda/ros_setup_scripts_Ubuntu14.04_server.svg?branch=master)](https://travis-ci.org/ryuichiueda/ros_setup_scripts_Ubuntu14.04_server)
+
 # ros_setup_scripts_Ubuntu14.04
 
 ROS setup scripts for Ubuntu 14.04
@@ -14,4 +16,5 @@ It installs ROS. Roscore will run if all procedures in this script are completed
 
 # tested on ...
 
-* Raspberry Pi 2
+* Ubuntu 14.04 Server on Raspberry Pi 2
+* Ubuntu 14.04 Server on Virtual Box
