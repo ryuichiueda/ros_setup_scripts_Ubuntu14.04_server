@@ -10,6 +10,8 @@ branches:
     - dev
 
 script:
+  - export DEBIAN_FRONTEND=noninteractive
+  - apt-get -o Dpkg::Options::="--force-confnew" install -y 
   - sh -e ./step0.bash
   - sh -e ./step1.bash
 
