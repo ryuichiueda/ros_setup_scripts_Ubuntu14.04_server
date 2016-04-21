@@ -24,7 +24,7 @@ echo 'source /opt/ros/indigo/setup.bash' >> ~/.bashrc
 
 
 ### instruction for user ###
-set -xv
+set +xv
 
 echo '***INSTRUCTION*****************'
 echo '* do the following command    *'
