@@ -13,7 +13,7 @@ sudo rosdep init
 rosdep update
 
 sudo apt-get install -y python-rosinstall
-sudo apt-get install -y make
+sudo apt-get install -y build-essential
 sudo apt-get install -y linux-headers-$(uname -r)
 
 grep -F 'source /opt/ros/indigo/setup.bash' ~/.bashrc ||
